@@ -16,3 +16,5 @@ file_again = input("> ")
 txt_again = open(file_again)
 # this prints the variable
 print(txt_again.read())
+# this closes the file
+txt.close()
