@@ -37,18 +37,8 @@ line3 = input("line 3: ")
 # prints string
 print("I'm going to write these to the file.")
 
-# writes line1 into file
-target.write(line1)
-# writes line break into file
-target.write("\n")
-# writes line2 into file
-target.write(line2)
-# writes line break into file
-target.write("\n")
-# writes line3 into file
-target.write(line3)
-# writes line break into file
-target.write("\n")
+# writes line1, line2, line3 into file
+target.write("%s\n%s\n%s\n" % (line1, line2, line3))
 
 # prints string
 print("And finally, we close it.")
