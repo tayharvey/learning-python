@@ -20,8 +20,12 @@ party_guests(34 + 2, 67 +3)
 print("Combining variables with math within function:")
 party_guests(amount_of_guests + 23, amount_of_dates + 8)
 
+
 guests = input('How many people are coming? ')
 dates = input('How many dates are they bringing? ')
 int(guests)
 int(dates)
 party_guests(guests, dates)
+
+
+party_guests(int(guests) + 3, int(dates) + 2)
