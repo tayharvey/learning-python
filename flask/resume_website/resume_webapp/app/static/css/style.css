@@ -1,8 +1,67 @@
 body {
-    margin: 1;
-    padding: .5;
-    font-family: "Georgia", serif;
-    background-color: beige;
+    background-color: silver;
 }
 
- 
+h1 {
+  background-color: white;
+  border-style: solid;
+  border-color: steelblue;
+  border-left-color: black;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+  padding: 20px;
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-color: black;
+  font-style: normal;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 20px;
+  text-align: left;
+
+
+    }
+
+    p1 {
+        background-color: white;
+        margin-top: none;
+        margin-bottom: 100px;
+        margin-left: none;
+        margin-right: 0px;
+        font-family: "Lucida Sans Unicode", sans-serif;
+        font-size: 14px;
+        border-style: solid;
+        border-left-color: black;
+        border-width: 1px;
+        border-top: none;
+        border-right: none;
+        border-bottom:none;
+        padding: 20px;
+        padding-right: 100px;
+
+    }
+
+
+
+h2 {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    padding-right: 200px;
+    border-style: solid;
+    border-left-color: black;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-bottom:none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 20px;
+
+}
