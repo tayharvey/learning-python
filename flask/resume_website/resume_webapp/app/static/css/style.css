@@ -1,67 +1,83 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    background-color: silver;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  background-color: silver;
 }
 
 h1 {
-    height: 100px;
-    width: 300px;
-    background-color: black;
-    border-style: solid;
-    border-color: none;
-    border-left-color: white;
-    border-bottom: none;
-    border-right: none;
-    border-top: none;
-    border-width: 1px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: white;
-    font-style: normal;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 20px;
-    text-align: center;
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  border-style: solid;
+  border-color: none;
+  border-left-color: white;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+  font-style: normal;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 20px;
+  text-align: center;
 
 
     }
 
-header img {
-    border: 1px;
-    border-radius: 50%;
-    padding: 5px;
-    width: 150px;
+img {
+  border: 1px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
 }
 
-table {
-    height: 200px;
-    width: 300px;
-    background-color: black;
-    margin-top: none;
-    margin-bottom: 100px;
-    margin-left: none;
-    margin-right: 0px;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 14px;
-    color: white;
-    border-style: solid;
-    border-left-color: white;
-    border-width: 1px;
-    border-top: none;
-    border-right: none;
-    border-bottom:none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+
+p1 {
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  margin-top: none;
+  margin-bottom: 100px;
+  margin-left: none;
+  margin-right: none;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  color: white;
+  border-style: solid;
+  border-left-color: white;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
 
     }
 
@@ -69,45 +85,46 @@ table {
 
 
 h2 {
-    background-color: white;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 20px;
-    padding-right: 200px;
-    border-style: solid;
-    border-left-color: black;
-    border-width: 1px;
-    border-top: none;
-    border-right: none;
-    border-bottom:none;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 20px;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 200px;
+  border-style: solid;
+  border-left-color: black;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 20px;
 
 }
 
 p2 {
-    height: 200px;
-    width: 300px;
-    background-color: white;
-    margin-top: none;
-    margin-bottom: 100px;
-    margin-left: none;
-    margin-right: 0px;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 14px;
-    color: black;
-    border-style: solid;
-    border-left-color: black;
-    border-width: 1px;
-    border-top: none;
-    border-right: none;
-    border-bottom:none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  margin-top: none;
+  margin-bottom: 100px;
+  margin-left: none;
+  margin-right: 0px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  color: black;
+  border-style: solid;
+  border-left-color: black;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
 
     }
