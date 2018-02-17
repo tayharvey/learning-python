@@ -5,6 +5,8 @@ body {
   background-color: silver;
 }
 
+
+
 h1 {
   height: 100px;
   width: 300px;
@@ -29,9 +31,33 @@ h1 {
   font-family: "Lucida Sans Unicode", sans-serif;
   font-size: 20px;
   text-align: center;
+}
 
-
-    }
+article {
+  background-color: black;
+  height: 100px;
+  width: 300px;
+  border-style: solid;
+  border-color: none;
+  border-left-color: white;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+  font-style: normal;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 
 img {
   border: 1px;
@@ -128,3 +154,13 @@ p2 {
   text-align: center;
 
     }
+
+button {
+  background-color: dimgrey;
+  border: none;
+  color: white;
+  padding: 15px 30 px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
