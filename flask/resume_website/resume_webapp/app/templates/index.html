@@ -1,50 +1,45 @@
-{% extends "base.html" %}
-
-{% block content %}
+<html>
 <head>
     <meta charset="utf-8">
     <title>Resume - Taylor Harvey</title>
     <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 <body>
-    <div>
-        <h1>Taylor Olivia Harvey</h1>
-          <p1>This is the little introduction section of the resume la la la.</p1>
-          <br>
-          <img src="taylor.JPG" alt=""> <br>
-          <br>
-          <p1>+34 625 742 545 <br>
-          <br>
-              <a href="https://www.linkedin.com/in/taylor-harvey-6aa04b59/">Linkedin<br>
-              <br>
-              <a href="https://github.com/tayharvey">Github<br>
-              <br>
-          </p1>
-    </div>
+  <div class="container" id="header">
+    <h1>Taylor Olivia Harvey</h1>
+    <p>This is the little introduction section of the resume la la la.</p>
+    <p><img src="file:///Users/taylorharvey/Desktop/Projects/learning-python/flask/resume_website/resume_webapp/app/images/taylor.JPG" alt="Taylor"></p>
+    <ul class="contact-info">
+      <li>+34 625 742 545</li>
+      <li><a href="https://www.linkedin.com/in/taylor-harvey-6aa04b59/">Linkedin</a></li>
+      <li><a href= "https://github.com/tayharvey">Github</a></li>
+    </ul>
+  </div>
 
-    <div>
-      <table>
-          <h2>Experience</h2>
-          <p2>Location of future timeline.</p2>
-      </table>
-    </div>
+  <div class="container">
+    <table>
+      <h2>Experience</h2>
+      <p>Location of future timeline.</p>
+    </table>
+  </div>
 
-    <div>
-          <h2>Skills</h2>
-          <button>Microsoft Office</button>
-          <button>Shell</button>
-          <button>Python</button>
-          <button>Writing</button>
-          <button>Teaching</button>
-    </div>
+  <div class='container'>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Shell</li>
+      <li>Python</li>
+      <li>Writing</li>
+      <li>Teaching</li>
+    </ul>
+  </div>
 
-    <div>
-      <table>
-          <h2>Education</h2>
-          <p2>University of Rochester with dates, programs studied and university logo.</p2>
-      </table>
-    </div>
-
+  <div class='container'>
+    <table>
+      <h2>Education</h2>
+      <p>University of Rochester with dates, programs studied and university logo.</p>
+    </table>
+  </div>
 </body>
-{% endblock %}
+</html>
