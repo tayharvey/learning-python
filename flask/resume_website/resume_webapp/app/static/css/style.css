@@ -49,11 +49,12 @@ span {
   text-align: center;
 }
 
-.img {
+img {
   border: 1px;
-  border-radius: 50%;
+  border-color: transparent;
+  border-radius: 0%;
   padding: 5px;
-  width: 150px;
+  width: 200px;
 }
 
 a:link{
