@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lucida Sans Unicode", sans-serif;
-  background-color: silver;
+  background-color: #212121;
 }
 
 ul.contact-info {
@@ -18,6 +18,12 @@ ul.skills > li {
   display: inline-block;
 }
 
+ul.education {
+  list-style-type: circle;
+}
+ul.education > li {
+}
+
 span {
   background-color: #898989;
   color: #fff;
@@ -27,6 +33,10 @@ span {
 #header {
   background-color: #000;
   color: #ffffff;
+}
+
+.universityname {
+  font-weight: bold;
 }
 
 .container {
@@ -58,17 +68,17 @@ img {
 }
 
 a:link{
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: gray;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: hotpink;
+  color: #39A4B0;
   text-decoration: none;
 }
 
@@ -123,21 +133,3 @@ a:hover {
   text-align: center;
 
     }
-
-.button {
-  background-color: dimgrey;
-  border: none;
-  color: white;
-  padding: 15px 30 px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.footer {
-  position: fixed;
-  width: 100%;
-  background color: black;
-  color: white;
-  text-align: center;
-}
